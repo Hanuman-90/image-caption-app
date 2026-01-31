@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Image Caption Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="card">
+      <h1>🧠 AI Image Caption Generator</h1>
+      <p class="subtitle">Upload an image and get an AI-generated caption</p>
+
+      <label class="upload-box">
+        <input type="file" id="imageInput" accept="image/*">
+        <span>📤 Click to upload image</span>
+      </label>
+
+      <img id="preview" />
+
+      <button onclick="uploadImage()">Generate Caption</button>
+
+      <p id="result"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
